@@ -10,6 +10,8 @@ import time
 
 time_start = time.time()
 time_end = time.time()
+cost = time_start - time_end
+print(cost)
 class MyDataset(Dataset):
   
   def __init__(self, opt, is_dev=False, is_test=False):
