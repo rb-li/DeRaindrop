@@ -6,8 +6,10 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import glob
+import time
 
-
+time_start = time.time()
+time_end = time.time()
 class MyDataset(Dataset):
   
   def __init__(self, opt, is_dev=False, is_test=False):
