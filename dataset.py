@@ -11,6 +11,7 @@ import time
 time_start = time.time()
 time_end = time.time()
 cost = time_start - time_end
+test = cost
 print(cost)
 class MyDataset(Dataset):
   
